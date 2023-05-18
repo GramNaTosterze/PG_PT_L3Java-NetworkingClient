@@ -3,7 +3,7 @@ package pg.pt;
 import java.io.IOException;
 
 public class StartServer {
-    public static void main(String[] args) throws ClassNotFoundException{
+    public static void main(String[] args){
         try {
             new Server();
         } catch (IOException e) {
